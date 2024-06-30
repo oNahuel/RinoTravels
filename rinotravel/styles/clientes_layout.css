@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.body-top{
+    height: 30dvh;
+    width: 100%;
+}
+.body-low{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.personas-form{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 2%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    transition: box-shadow 0.3s;
+}
+.personas-form:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+.personas-form form{
+    display: flex;
+    flex-direction: column;
+}
+.personas-form h2{
+    font-size: 16pt;
+    font-weight: 300;
+}
+.personas-form input{
+    border: 1px solid gray;
+    height: 30px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 1% 0;
+}
+.personas-form select{
+    height: 30px;
+    margin: 1% 0;
+}
+.personas-form label{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+.clientes-fields{
+    display: flex;
+}
+.clientes-submit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5% 0;
+}
+.btn-submiteo-2{
+    border: none !important;
+    background-color: #2bbfa9;
+    width: 50% !important;
+    height: 40px !important;
+}
+.btn-submiteo-2:hover{
+    background-color: #72e3d4;
+}

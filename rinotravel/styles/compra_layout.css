@@ -1,0 +1,70 @@
+.compra-rect{
+    width: 90%;
+}
+.compra-form h2{
+    font-size: 14pt;
+}
+.compra-form input{
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    font-size: inherit;
+    font-family: inherit;
+    color: black;
+    padding: 0;
+}
+.compra-form input:hover{
+    cursor: default;
+}
+.compra-form input:focus-visible {
+    outline: transparent;
+}
+.compra-pasajeros-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    transition: box-shadow 0.3s;
+    margin: 1% 0;
+}
+.compra-pasajeros-container:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+.compra-pasajeros-fields{
+    display: flex;
+    flex-direction: column;
+}
+.compra-pasajeros-confirm{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5% 0 5% 0;
+}
+.compra-pasajeros-id {
+    font-size: 14pt;
+}
+.btn-submiteo-3{
+    background-color: #ef4b4b;
+}
+.btn-submiteo-3 a{
+    text-decoration: none;
+    color: black;
+}
+.btn-submiteo-3:hover{
+    color: black;
+    text-decoration: none;
+    background-color: #ff7c7c;
+}
+.compra-pasajeros-precio{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2% 0;
+}
+.compra-pasajeros-precio h4{
+    font-weight: 400;
+}

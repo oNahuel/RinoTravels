@@ -1,0 +1,21 @@
+.body-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 85svh;
+    width: 100%;
+}
+.body-end h2{
+    user-select: none;
+    font-size: 30pt;
+    font-weight: 400;
+}
+.body-end h3{
+    user-select: none;
+    font-size: 14pt;
+    font-weight: 300;
+}
+.body-desc{
+    text-align: center;
+}

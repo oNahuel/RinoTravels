@@ -1,0 +1,104 @@
+
+main{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100svh;
+}
+
+.home-form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px gray;
+    width: 60%;
+    height: 20%;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    width: 100%;
+    height: 15svh;
+}
+.emp-logo{
+    display: flex;
+    justify-content: start;
+    user-select: none;
+    font-weight: bold;
+    font-size: 20pt;
+    letter-spacing: -1.2pt;
+}
+.emp-logo a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.nav-items{
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-items a{
+    cursor: pointer;
+}
+.nav-items img{
+    cursor: pointer;
+    height: 22px;
+}
+.main-form{
+    display: flex;
+    justify-content: center;
+    height: 85svh;
+    width: 100%;
+}
+.main-form-img{
+    width: 100%;
+    height: 100%;
+    margin: 0 5%;
+}
+.main-form-img img{
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+    height: 80%;
+}
+.main-form-group{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    width: 100%;
+}
+.main-form-group label{
+    font-weight: 500;
+}
+.btn-submiteo{
+    background-color: #2bbfa9;
+}
+.btn-submiteo:hover{
+    background-color: #72e3d4;
+}
+.form-labels{
+    display: flex;
+    flex-direction: column;
+}
+.home-error{
+    width: 100%;
+    padding: 0 5%;
+    font-size: 10pt;
+}

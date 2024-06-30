@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\controladores",
+    "\\modelos",
+    "\\servicios",
+    "\\styles",
+    "\\styles\\fonts",
+    "\\vistas"
+  ],
+  "SelectedNode": "\\controladores\\ClientesController.php",
+  "PreviewInSolutionExplorer": false
+}
